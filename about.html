@@ -1,0 +1,188 @@
+Here's the enhanced version of your HTML file with improved text styling, hover transitions, and a "Back to Home Page" navigation link for redirecting to the `index.html` file:  
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeR4U SME SOLUTIONS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f8fc;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(90deg, #1e88e5, #ff9800);
+            color: white;
+            padding: 1.5rem 0;
+            text-align: center;
+            font-size: 2rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .img-box {
+            text-align: center;
+            margin: 1rem 0;
+        }
+
+        .img-box img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .img-box img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .section h2 {
+            color: #1e88e5;
+            margin-bottom: 1rem;
+        }
+
+        .section h3 {
+            color: #ff9800;
+        }
+
+        .section ul {
+            list-style-type: disc;
+            padding-left: 2rem;
+            text-align: left;
+            display: inline-block;
+        }
+
+        .section ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            text-align: center;
+            background: #1e88e5;
+            color: white;
+            padding: 1rem 0;
+            margin-top: 2rem;
+            font-size: 0.9rem;
+        }
+
+        .back-home {
+            display: inline-block;
+            margin: 1rem 0 2rem;
+            padding: 0.8rem 1.5rem;
+            background-color: #ff9800;
+            color: white;
+            font-size: 1rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .back-home:hover {
+            background-color: #1e88e5;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <header>About Us</header>
+
+    <div class="img-box">
+        <img src="images/web1.png" alt="About Us Banner">
+    </div>
+
+    <div class="container">
+        <a href="index.html" class="back-home">Back to Home Page</a>
+
+        <div class="section">
+            <h2>Core Focus Areas</h2>
+
+            <h3>1. Gaukendrit Solutions</h3>
+            <p>Revolutionizing rural development with cow-centered technologies that address sustainable farming, rural employment, and organic agriculture.</p>
+            <ul>
+                <li><strong>Gaukendrit Gaushala Clusters:</strong> Producing phosphate-rich organic manure (PROM) and reducing chemical fertilizer dependency.</li>
+                <li><strong>Atal Gotha Factories:</strong> Establishing village industries to promote rural entrepreneurship.</li>
+                <li><strong>Natural Tourism and Ayurveda Centers:</strong> Transforming villages into hubs for agro-tourism and affordable Ayurvedic healthcare.</li>
+            </ul>
+
+            <h3>2. Azad Hind Sena Marg Trek</h3>
+            <p>A patriotic initiative retracing the Indian National Army's (INA) journey under Netaji Subhas Chandra Bose.</p>
+            <ul>
+                <li>Focused on preserving history, fostering patriotism, and promoting heritage tourism.</li>
+                <li>Encourages citizens to explore the INA's 570-kilometer route from Myanmar to Moirang through treks and marches.</li>
+            </ul>
+
+            <h3>3. ABHA IITe (Industrial Infrastructure Technology-enabled)</h3>
+            <p>A groundbreaking concept for creating transparent and corruption-free industrial ecosystems.</p>
+            <ul>
+                <li>Promoting decentralized economic growth with industrial layouts ranging from 10 to 200 acres.</li>
+                <li>Supporting MSMEs with transparent land allocation and world-class infrastructure.</li>
+                <li>Implementing hybrid power grids and ensuring 100% legal compliance.</li>
+            </ul>
+
+            <h3>4. Gaukendrit Gymkhana</h3>
+            <p>Redefining urban living by blending modern amenities with traditional values.</p>
+            <ul>
+                <li>Emphasizes sustainable housing, enhanced urban infrastructure, and social harmony.</li>
+                <li>The first project is planned along Pune's PMRDA Ring Road.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Contributions to Society</h2>
+            <ul>
+                <li>Advocating for Atmanirbhar Bharat by promoting self-reliance in rural and urban economies.</li>
+                <li>Reducing chemical dependency in agriculture through organic solutions like PROM.</li>
+                <li>Empowering MSMEs and rural entrepreneurs by creating equitable economic opportunities.</li>
+                <li>Enhancing environmental sustainability through bamboo-based green infrastructure and natural farming practices.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Vision for India</h2>
+            <p>Rahul envisions a Viksit Bharat (Developed India), where:</p>
+            <ul>
+                <li>Villages thrive as self-reliant hubs of innovation and sustainability.</li>
+                <li>Urban spaces embrace inclusivity, happiness, and ecological balance.</li>
+                <li>Patriotism, culture, and history inspire the next generation toward national pride.</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>© 2025 WeR4U SME SOLUTIONS</footer>
+</body>
+</html>
+```
